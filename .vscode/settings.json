@@ -1,0 +1,10 @@
+{
+    "python.pythonPath": "C:\\Users\\ricwe\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\systembolaget-openhours-cDc0CHjh-py3.8\\Scripts\\python.exe",
+    "python.formatting.provider": "black",
+    "python.testing.pytestArgs": [
+        "."
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestEnabled": true
+}

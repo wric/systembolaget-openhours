@@ -1,0 +1,7 @@
+README.rst
+setup.py
+systembolaget_openhours/__init__.py
+systembolaget_openhours.egg-info/PKG-INFO
+systembolaget_openhours.egg-info/SOURCES.txt
+systembolaget_openhours.egg-info/dependency_links.txt
+systembolaget_openhours.egg-info/top_level.txt
