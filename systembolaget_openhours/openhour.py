@@ -10,8 +10,8 @@ class Openhour(object):
         info = openhour.split(";")
         date = datetime(*[int(i) for i in info[0].split("-")])
         self.date = date
-        self.opens = float(info[1].split(":")[0])
-        self.closes = float(info[2].split(":")[0])
+        self.opens = float(info[1].replace(":", "."))
+        self.closes = float(info[2].replace(":", "."))
         self.info = info[-2]
 
     def is_sunday(self):
