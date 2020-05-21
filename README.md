@@ -9,7 +9,7 @@ for all the stores.
 ### Evaluate if store has deviating open hours
 
 ```py
-from systembolaget_openhours import Fetcher
+from systembolaget_openhours.fetcher import Fetcher
 
 fetcher = Fetcher()
 store = fetcher.get_store_by_name("Backaplan")
@@ -21,7 +21,7 @@ store.has_deviation()  # True / False
 **Note:** you can only evaluate today date and 15 days ahead.
 
 ```py
-from systembolaget_openhours import Fetcher
+from systembolaget_openhours.fetcher import Fetcher
 
 fetcher = Fetcher()
 store = fetcher.get_store_by_no("1414")
@@ -31,7 +31,7 @@ store.is_datestring_deviating("2020-05-21")  # True / False
 ### Print deviations
 
 ```py
-from systembolaget_openhours import Fetcher
+from systembolaget_openhours.fetcher import Fetcher
 
 fetcher = Fetcher()
 store = fetcher.get_store_by_no("1414")
