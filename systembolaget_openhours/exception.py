@@ -1,0 +1,2 @@
+class DateOutOfRange(Exception):
+    pass
