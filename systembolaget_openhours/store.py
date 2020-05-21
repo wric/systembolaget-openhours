@@ -94,4 +94,4 @@ class Store(object):
         return len(self.get_all_deviations())
 
     def has_deviation(self) -> bool:
-        return self.number_of_deviations > 0
+        return self.number_of_deviations() > 0

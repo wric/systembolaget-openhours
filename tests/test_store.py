@@ -76,6 +76,11 @@ def test_is_openhour_deviating_day_before_langfredag(backaplan_easter):
     assert info == "0"
 
 
+def test_has_deviation(backaplan_christmas):
+    store = Store(backaplan_christmas)
+    assert store.has_deviation() is True
+
+
 def test_backaplan_easter(backaplan_easter):
     store = Store(backaplan_easter)
     evaluations = store.get_all_evaluations()
